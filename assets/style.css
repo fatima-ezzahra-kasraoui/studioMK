@@ -1218,29 +1218,12 @@ form.contact-form {
 @media (max-width: 640px) {
   .lightbox-prev, .lightbox-next { width: 38px; height: 38px; }
 }
-.hero-content .eyebrow,
-.hero-content h1,
-.hero-content p,
-.hero-content .hero-actions {
+
+.hero-content {
   opacity: 0;
   transform: translateY(24px);
-  animation: heroFadeUp 0.5s ease forwards;
-}
-
-.hero-content .eyebrow {
-  animation-delay: 0.15s;
-}
-
-.hero-content h1 {
-  animation-delay: 0.45s;
-}
-
-.hero-content p {
-  animation-delay: 0.65s;
-}
-
-.hero-content .hero-actions {
-  animation-delay: 0.85s;
+  animation: heroFadeUp 0.8s ease forwards;
+  animation-delay: 0.2s;
 }
 
 @keyframes heroFadeUp {
@@ -1248,4 +1231,8 @@ form.contact-form {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.hero-content .eyebrow {
+  color: #b3894c;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
