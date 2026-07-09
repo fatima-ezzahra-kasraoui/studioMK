@@ -199,8 +199,9 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(44, 10, 15, 0.15) 0%, rgba(44, 10, 15, 0.55) 55%, rgba(44, 10, 15, 0.92) 100%);
+  background: linear-gradient(180deg, rgba(8, 14, 28, 0.15) 0%, rgba(8, 14, 28, 0.55) 55%, rgba(8, 14, 28, 0.92) 100%);
 }
+
 
 .hero-content {
   position: relative;
