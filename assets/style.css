@@ -259,8 +259,8 @@ p {
 }
 
 .hero-content h1 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 600;
+  font-family:'Cormorant Garamond', serif;
+  font-weight: 540;
   font-style: italic;
   font-size: clamp(2.4rem, 5.5vw, 4.2rem);
   line-height: 1.15;
@@ -1232,7 +1232,69 @@ form.contact-form {
     transform: translateY(0);
   }
 }
-.hero-content .eyebrow {
-  color: #b3894c;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+.map-wrapper {
+  position: relative;
+  border-radius: 35px;
+  overflow: hidden;
+  border: 1px solid rgba(64, 224, 208, 0.25); /* turquoise/bioluminescent subtle border */
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.45),
+    0 0 24px rgba(64, 224, 208, 0.12); /* soft glow */
+  transition: box-shadow 0.4s ease, border-color 0.4s ease, transform 0.4s ease;
+}
+
+.map-wrapper:hover {
+  border-color: rgba(64, 224, 208, 0.5);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.55),
+    0 0 40px rgba(64, 224, 208, 0.25);
+  transform: translateY(-2px);
+}
+
+.map-wrapper iframe {
+  display: block;
+  filter: saturate(0.85) brightness(0.9) contrast(1.05); /* assombrit légèrement pour matcher le thème sombre */
+}
+.input-icon {
+  position: relative;
+}
+
+.input-icon svg {
+  position: absolute;
+  top: 16px;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  color: rgba(0, 0, 0, 0.4); /* ajuste selon ta charte (ex: couleur or/beige du site) */
+  pointer-events: none;
+}
+
+.input-icon-textarea svg {
+  top: 16px;
+}
+
+.input-icon input,
+.input-icon textarea {
+  padding-left: 42px;
+}
+
+.form-availability {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-availability svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
 }
