@@ -204,6 +204,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 35%;
 }
 
 .hero-media::after {
@@ -213,7 +214,30 @@ p {
   background: linear-gradient(180deg, rgba(8, 14, 28, 0.15) 0%, rgba(8, 14, 28, 0.55) 55%, rgba(8, 14, 28, 0.92) 100%);
 }
 
+/* Tablettes */
+@media (max-width: 900px) {
+  .hero-media {
+    min-height: 75vh;
+  }
+}
 
+/* Mobiles */
+@media (max-width: 600px) {
+  .hero-media {
+    min-height: 90vh;
+  }
+
+  .hero-media img {
+    object-position: center 25%;
+  }
+}
+
+/* Petits mobiles */
+@media (max-width: 400px) {
+  .hero-media {
+    min-height: 100vh;
+  }
+}
 .hero-content {
   position: relative;
   z-index: 2;
