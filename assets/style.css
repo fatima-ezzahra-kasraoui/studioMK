@@ -114,7 +114,7 @@ p {
 }
 
 .brand img {
-  height: 42px;
+  height: 80px;
   width: auto;
 }
 
@@ -469,7 +469,7 @@ section.tight {
 }
 
 .pillar h3 {
-  font-size: 1.25rem;
+  font-size: 2.2rem;
   color: var(--gold-600);
   margin-bottom: 0.4em;
 }
@@ -1030,7 +1030,7 @@ form.contact-form {
 }
 
 .footer-brand img {
-  height: 34px;
+  height: 120px;
   margin-bottom: 10px;
 }
 
@@ -1298,3 +1298,18 @@ form.contact-form {
   display: inline-flex;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

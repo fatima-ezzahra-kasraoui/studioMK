@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr" dir="ltr" data-i18n-title="detail.ecole-paysage.title" data-i18n-description="detail.ecole-paysage.description">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,21 +12,21 @@
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Aller au contenu</a>
+<a class="skip-link" href="#main" data-i18n="common.skip">Aller au contenu</a>
 
 <header class="site-header">
   <div class="container">
     <a class="brand" href="../../">
       <img src="../../assets/YrULrgieroBfjt51d4Xq3QkEuw.png" alt="Studio Madaji Khaoula">
     </a>
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="../../">Accueil</a>
-      <a href="../../a-propos/">À propos</a>
-      <a href="../../services/">Services</a>
-      <a href="../../projets/" aria-current="page">Projets</a>
-      <a href="../../contact/">Contact</a>
+    <nav class="main-nav" aria-label="Navigation principale" data-i18n-aria-label="common.nav.aria">
+      <a href="../../" data-i18n="common.nav.home">Accueil</a>
+      <a href="../../a-propos/" data-i18n="common.nav.about">À propos</a>
+      <a href="../../services/" data-i18n="common.nav.services">Services</a>
+      <a href="../../projets/" aria-current="page" data-i18n="common.nav.projects">Projets</a>
+      <a href="../../contact/" data-i18n="common.nav.contact">Contact</a>
     </nav>
-    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" data-i18n-aria-label="common.nav.toggle_aria">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
@@ -36,9 +36,9 @@
 
   <section class="project-detail-hero">
     <div class="container">
-      <span class="eyebrow reveal">Écoles &amp; Équipements Publics</span>
-      <h1 class="reveal reveal-delay-1">École du Paysage</h1>
-      <p class="reveal reveal-delay-2">Projet éducatif intégré à son environnement naturel, où les teintes de terre, la pierre et les volumes bas créent une architecture humble et durable.</p>
+      <span class="eyebrow reveal" data-i18n="detail.ecole-paysage.eyebrow">Écoles &amp; Équipements Publics</span>
+      <h1 class="reveal reveal-delay-1" data-i18n="detail.ecole-paysage.h1">École du Paysage</h1>
+      <p class="reveal reveal-delay-2" data-i18n="detail.ecole-paysage.p">Projet éducatif intégré à son environnement naturel, où les teintes de terre, la pierre et les volumes bas créent une architecture humble et durable.</p>
     </div>
   </section>
 
@@ -51,7 +51,7 @@
   </section>
 
   <div class="project-detail-back reveal">
-    <a class="btn btn-outline" href="../">Retour aux projets</a>
+    <a class="btn btn-outline" href="../" data-i18n="common.btn.back_projects">Retour aux projets</a>
   </div>
 
 </main>
@@ -60,19 +60,22 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <img src="../../assets/YrULrgieroBfjt51d4Xq3QkEuw.png" alt="Studio Madaji Khaoula">
-        <p style="margin:0;max-width:280px;">Architecture, urbanisme et design intérieur au Maroc.</p>
-      </div>
+        <p style="margin:0;max-width:400px;" data-i18n="common.footer.tagline">Architecture, urbanisme et design intérieur au Maroc.</p>
+        <br>
       <nav class="footer-links" aria-label="Coordonnées">
        <a href="mailto:contact@studiomadajikhaoula.com">contact@studiomadajikhaoula.com</a>
        <a href="tel:+212625122786">+212 625-122786</a>
        <a href="https://www.google.com/maps/search/?api=1&query=Avenue+Hassan+II+16-46%2C+40170+Marrakesh%2C+Morocco" target="_blank" rel="noopener noreferrer">
         Avenue Hassan II 16–46, 40170 Marrakesh, Morocco
        </a>
+       
       </nav>
     </div>
-    <div class="footer-bottom">© 2026 Studio Madaji Khaoula. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="common.footer.rights">© 2026 Studio Madaji Khaoula. Tous droits réservés.</div>
+    
   </div>
 </footer>
 <script src="../../assets/main.js"></script>
+<script src="../../assets/i18n.js" defer></script>
 </body>
 </html>

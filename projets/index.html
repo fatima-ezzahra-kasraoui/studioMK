@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr" dir="ltr" data-i18n-title="projects.title" data-i18n-description="projects.description">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,21 +12,21 @@
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Aller au contenu</a>
+<a class="skip-link" href="#main" data-i18n="common.skip">Aller au contenu</a>
 
 <header class="site-header">
   <div class="container">
     <a class="brand" href="../">
       <img src="../assets/YrULrgieroBfjt51d4Xq3QkEuw.png" alt="Studio Madaji Khaoula">
     </a>
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="../">Accueil</a>
-      <a href="../a-propos/">À propos</a>
-      <a href="../services/">Services</a>
-      <a href="../projets/" aria-current="page">Projets</a>
-      <a href="../contact/">Contact</a>
+    <nav class="main-nav" aria-label="Navigation principale" data-i18n-aria-label="common.nav.aria">
+      <a href="../" data-i18n="common.nav.home">Accueil</a>
+      <a href="../a-propos/" data-i18n="common.nav.about">À propos</a>
+      <a href="../services/" data-i18n="common.nav.services">Services</a>
+      <a href="../projets/" aria-current="page" data-i18n="common.nav.projects">Projets</a>
+      <a href="../contact/" data-i18n="common.nav.contact">Contact</a>
     </nav>
-    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" data-i18n-aria-label="common.nav.toggle_aria">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
@@ -36,50 +36,50 @@
 
   <section class="hero-simple">
     <div class="container">
-      <span class="eyebrow reveal">Portfolio authentique</span>
-      <h1 class="reveal reveal-delay-1">Nos Projets</h1>
-      <p class="reveal reveal-delay-2">Une sélection de réalisations authentiques en architecture, urbanisme et design intérieur.</p>
+      <span class="eyebrow reveal" data-i18n="projects.eyebrow">Portfolio authentique</span>
+      <h1 class="reveal reveal-delay-1" data-i18n="projects.h1">Nos Projets</h1>
+      <p class="reveal reveal-delay-2" data-i18n="projects.p">Une sélection de réalisations authentiques en architecture, urbanisme et design intérieur.</p>
       <div class="filter-chips reveal reveal-delay-2">
-        <button class="filter-chip active" data-filter="all">Tous les projets</button>
-        <button class="filter-chip" data-filter="villas">Résidentiels</button>
-        <button class="filter-chip" data-filter="ecoles">Écoles &amp; Équipements Publics</button>
-        <button class="filter-chip" data-filter="interieur">Design Intérieur</button>
+        <button class="filter-chip active" data-filter="all" data-i18n="projects.filter.all">Tous les projets</button>
+        <button class="filter-chip" data-filter="villas" data-i18n="projects.filter.villas">Résidentiels</button>
+        <button class="filter-chip" data-filter="ecoles" data-i18n="projects.filter.ecoles">Écoles &amp; Équipements Publics</button>
+        <button class="filter-chip" data-filter="interieur" data-i18n="projects.filter.interieur">Design Intérieur</button>
       </div>
     </div>
   </section>
 
   <section class="project-category" data-category="villas">
     <div class="container">
-      <span class="eyebrow reveal">Résidentiels</span>
-      <h3 class="cat-title reveal reveal-delay-1">Villas contemporaines et résidences de prestige</h3>
+      <span class="eyebrow reveal" data-i18n="projects.cat.villas.eyebrow">Résidentiels</span>
+      <h3 class="cat-title reveal reveal-delay-1" data-i18n="projects.cat.villas.title">Villas contemporaines et résidences de prestige</h3>
       <div class="project-grid">
         <a class="project-card reveal" href="villa-contemporaine-aux-palmiers/">
           <div class="thumb"><img src="../assets/8KyEJp0F35rfe7YDyoin9XA6xBE.png" alt="Villa Contemporaine aux Palmiers" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Villas</span>
-            <h3>Villa Contemporaine aux Palmiers</h3>
-            <p>Villa de prestige organisée autour de volumes géométriques, de larges baies vitrées, d'un jardin luxuriant et d'une relation fluide entre intérieur, terrasse et piscine.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.villas">Villas</span>
+            <h3 data-i18n="card.villa-contemporaine.title">Villa Contemporaine aux Palmiers</h3>
+            <p data-i18n="card.villa-contemporaine.desc">Villa de prestige organisée autour de volumes géométriques, de larges baies vitrées, d'un jardin luxuriant et d'une relation fluide entre intérieur, terrasse et piscine.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
 
           </div>
         </a>
         <a class="project-card reveal reveal-delay-1" href="maison-patio-en-pierre/">
           <div class="thumb"><img src="../assets/projects/maison-patio-en-pierre/1.png" data-placeholder="assets/projects/maison-patio-en-pierre/1.jpg" alt="Maison Patio en Pierre" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Villas</span>
-            <h3>Maison Patio en Pierre</h3>
-            <p>Projet résidentiel où la pierre, l'eau et les ombres végétales composent une atmosphère calme, minérale et intemporelle.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.villas">Villas</span>
+            <h3 data-i18n="card.maison-patio.title">Maison Patio en Pierre</h3>
+            <p data-i18n="card.maison-patio.desc">Projet résidentiel où la pierre, l'eau et les ombres végétales composent une atmosphère calme, minérale et intemporelle.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
 
           </div>
         </a>
         <a class="project-card reveal reveal-delay-2" href="villa-lumiere-du-soir/">
           <div class="thumb"><img src="../assets/projects/villa-lumiere-du-soir/1.png" data-placeholder="assets/projects/villa-lumiere-du-soir/1.jpg" alt="Villa Lumière du Soir" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Villas</span>
-            <h3>Villa Lumière du Soir</h3>
-            <p>Une résidence contemporaine mise en valeur par la lumière du soir, la présence de la piscine et une matérialité douce entre béton, bois et paysage.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.villas">Villas</span>
+            <h3 data-i18n="card.villa-lumiere.title">Villa Lumière du Soir</h3>
+            <p data-i18n="card.villa-lumiere.desc">Une résidence contemporaine mise en valeur par la lumière du soir, la présence de la piscine et une matérialité douce entre béton, bois et paysage.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
       </div>
@@ -88,35 +88,35 @@
 
   <section class="project-category band-maroon" data-category="ecoles">
     <div class="container">
-      <span class="eyebrow reveal">Écoles &amp; Équipements Publics</span>
-      <h3 class="cat-title reveal reveal-delay-1">Équipements ancrés dans leur territoire</h3>
+      <span class="eyebrow reveal" data-i18n="projects.cat.ecoles.eyebrow">Écoles &amp; Équipements Publics</span>
+      <h3 class="cat-title reveal reveal-delay-1" data-i18n="projects.cat.ecoles.title">Équipements ancrés dans leur territoire</h3>
       <div class="project-grid">
         <a class="project-card reveal" href="ecole-rurale-durable/">
           <div class="thumb"><img src="../assets/projects/ecole-rurale-durable/1.png" data-placeholder="assets/projects/ecole-rurale-durable/1.jpg" alt="École Rurale Durable" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Écoles &amp; Équipements Publics</span>
-            <h3>École Rurale Durable</h3>
-            <p>Équipement scolaire conçu avec des matériaux à forte présence locale, une volumétrie simple et une implantation respectueuse du paysage montagneux.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.ecoles">Écoles &amp; Équipements Publics</span>
+            <h3 data-i18n="card.ecole-rurale.title">École Rurale Durable</h3>
+            <p data-i18n="card.ecole-rurale.desc">Équipement scolaire conçu avec des matériaux à forte présence locale, une volumétrie simple et une implantation respectueuse du paysage montagneux.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
 
           </div>
         </a>
         <a class="project-card reveal reveal-delay-1" href="ecole-du-paysage/">
           <div class="thumb"><img src="../assets/projects/ecole-du-paysage/1.png" data-placeholder="assets/projects/ecole-du-paysage/1.jpg" alt="École du Paysage" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Écoles &amp; Équipements Publics</span>
-            <h3>École du Paysage</h3>
-            <p>Projet éducatif intégré à son environnement naturel, où les teintes de terre, la pierre et les volumes bas créent une architecture humble et durable.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.ecoles">Écoles &amp; Équipements Publics</span>
+            <h3 data-i18n="card.ecole-paysage.title">École du Paysage</h3>
+            <p data-i18n="card.ecole-paysage.desc">Projet éducatif intégré à son environnement naturel, où les teintes de terre, la pierre et les volumes bas créent une architecture humble et durable.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
         <a class="project-card reveal reveal-delay-2" href="equipement-public-en-terre/">
           <div class="thumb"><img src="../assets/projects/equipement-public-en-terre/1.png" data-placeholder="assets/projects/equipement-public-en-terre/1.jpg" alt="Équipement Public en Terre" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Écoles &amp; Équipements Publics</span>
-            <h3>Équipement Public en Terre</h3>
-            <p>Vue d'ensemble d'un équipement public où les circulations, la toiture et les matériaux ancrent le bâtiment dans un territoire aride et minéral.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.ecoles">Écoles &amp; Équipements Publics</span>
+            <h3 data-i18n="card.equipement-terre.title">Équipement Public en Terre</h3>
+            <p data-i18n="card.equipement-terre.desc">Vue d'ensemble d'un équipement public où les circulations, la toiture et les matériaux ancrent le bâtiment dans un territoire aride et minéral.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
       </div>
@@ -125,34 +125,34 @@
 
   <section class="project-category" data-category="interieur">
     <div class="container">
-      <span class="eyebrow reveal">Design Intérieur</span>
-      <h3 class="cat-title reveal reveal-delay-1">Intérieurs commerciaux raffinés</h3>
+      <span class="eyebrow reveal" data-i18n="projects.cat.interieur.eyebrow">Design Intérieur</span>
+      <h3 class="cat-title reveal reveal-delay-1" data-i18n="projects.cat.interieur.title">Intérieurs commerciaux raffinés</h3>
       <div class="project-grid">
         <a class="project-card reveal" href="boutique-de-luxe-galerie/">
           <div class="thumb"><img src="../assets/projects/boutique-de-luxe-galerie/1.png" data-placeholder="assets/projects/boutique-de-luxe-galerie/1.jpg" alt="Boutique de Luxe — Galerie" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Design Intérieur</span>
-            <h3>Boutique de Luxe — Galerie</h3>
-            <p>Aménagement d'une boutique raffinée où les boiseries bordeaux, les détails dorés et la lumière chaude créent une expérience client intimiste et haut de gamme.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.interieur">Design Intérieur</span>
+            <h3 data-i18n="card.boutique-luxe.title">Boutique de Luxe — Galerie</h3>
+            <p data-i18n="card.boutique-luxe.desc">Aménagement d'une boutique raffinée où les boiseries bordeaux, les détails dorés et la lumière chaude créent une expérience client intimiste et haut de gamme.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
         <a class="project-card reveal reveal-delay-1" href="salon-boutique-haute-couture/">
           <div class="thumb"><img src="../assets/6UIZO5WGK2VY3DsmJ8tR2jIk3Ss.png" alt="Salon Boutique Haute Couture" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Design Intérieur</span>
-            <h3>Salon Boutique Haute Couture</h3>
-            <p>Un espace d'accueil luxueux travaillé autour du bordeaux profond, du mobilier enveloppant, du miroir doré et d'une mise en scène lumineuse élégante.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.interieur">Design Intérieur</span>
+            <h3 data-i18n="card.salon-boutique.title">Salon Boutique Haute Couture</h3>
+            <p data-i18n="card.salon-boutique.desc">Un espace d'accueil luxueux travaillé autour du bordeaux profond, du mobilier enveloppant, du miroir doré et d'une mise en scène lumineuse élégante.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
         <a class="project-card reveal" href="residence-signature-design-interieur/">
           <div class="thumb"><img src="../assets/projects/residence-signature-design-interieur/1.png" data-placeholder="assets/projects/residence-signature-design-interieur/1.jpg" alt="Résidence Signature — Design Intérieur" loading="lazy"></div>
           <div class="body">
-            <span class="tag">Design Intérieur</span>
-            <h3>Résidence Signature — Design Intérieur</h3>
-            <p>Projet de design intérieur réalisé autour d'une ambiance lumineuse, de matières nobles et d'une composition élégante des espaces de vie.</p>
-            <span class="view-label">Voir le projet →</span>
+            <span class="tag" data-i18n="projects.tag.interieur">Design Intérieur</span>
+            <h3 data-i18n="card.residence-signature.title">Résidence Signature — Design Intérieur</h3>
+            <p data-i18n="card.residence-signature.desc">Projet de design intérieur réalisé autour d'une ambiance lumineuse, de matières nobles et d'une composition élégante des espaces de vie.</p>
+            <span class="view-label" data-i18n="common.view_label">Voir le projet →</span>
           </div>
         </a>
       </div>
@@ -162,10 +162,10 @@
   <section class="cta-band tight">
     <div class="container reveal" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px;">
       <div>
-        <h2>Un projet en tête ?</h2>
-        <p>Parlons-en ensemble.</p>
+        <h2 data-i18n="projects.cta.h2">Un projet en tête ?</h2>
+        <p data-i18n="projects.cta.p">Parlons-en ensemble.</p>
       </div>
-      <a class="btn btn-primary" href="../contact/">Demander une consultation</a>
+      <a class="btn btn-primary" href="../contact/" data-i18n="common.btn.consultation">Demander une consultation</a>
     </div>
   </section>
 
@@ -175,18 +175,22 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <img src="../assets/YrULrgieroBfjt51d4Xq3QkEuw.png" alt="Studio Madaji Khaoula">
-        <p style="margin:0;max-width:280px;">Architecture, urbanisme et design intérieur au Maroc.</p>
+        <p style="margin:0;max-width:400px;" data-i18n="common.footer.tagline">Architecture, urbanisme et design intérieur au Maroc.</p>
+        <br>
       <nav class="footer-links" aria-label="Coordonnées">
        <a href="mailto:contact@studiomadajikhaoula.com">contact@studiomadajikhaoula.com</a>
        <a href="tel:+212625122786">+212 625-122786</a>
        <a href="https://www.google.com/maps/search/?api=1&query=Avenue+Hassan+II+16-46%2C+40170+Marrakesh%2C+Morocco" target="_blank" rel="noopener noreferrer">
         Avenue Hassan II 16–46, 40170 Marrakesh, Morocco
        </a>
+       
       </nav>
     </div>
-    <div class="footer-bottom">© 2026 Studio Madaji Khaoula. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="common.footer.rights">© 2026 Studio Madaji Khaoula. Tous droits réservés.</div>
+    
   </div>
 </footer>
 <script src="../assets/main.js"></script>
+<script src="../assets/i18n.js" defer></script>
 </body>
 </html>
